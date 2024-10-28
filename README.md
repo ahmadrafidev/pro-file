@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ProFile: ATS-Ready Resumes in Seconds
 
-## Getting Started
+ProFile is a web app that helps users quickly generate ATS-compatible (Applicant Tracking System) resumes. With a simple form-driven interface and AI-powered formatting, ProFile provides professional, polished, and ATS-friendly resumes tailored to your unique experience.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [ProFile: ATS-Ready Resumes in Seconds](#profile-ats-ready-resumes-in-seconds)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [How It Works](#how-it-works)
+  - [Built With](#built-with)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ProFile streamlines the resume creation process by offering a user-friendly, guided approach to building resumes that pass through Applicant Tracking Systems (ATS). It’s perfect for job seekers looking to create polished resumes that stand out.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- **ATS-Friendly Formatting**: Ensures that resumes are compatible with most Applicant Tracking Systems, avoiding common formatting issues.
+- **Customizable Templates**: Offers a selection of templates, each optimized for readability and ATS scanning.
+- **AI-Assisted Content Suggestions**: Get personalized recommendations for wording, skills, and experiences to highlight.
+- **Form-Based Resume Builder**: Input your information in easy-to-follow sections like Experience, Education, and Skills, with real-time preview.
+- **Download & Share**: Instantly download your resume in ATS-friendly formats (e.g., PDF, DOCX) or share it directly via email.
 
-To learn more about Next.js, take a look at the following resources:
+## How It Works
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Input Your Personal Information**: Fill out form fields, covering key sections such as Work Experience, Education, Skills, and Summary.
+2. **Customize Your Template**: Choose from a variety of ATS-optimized templates.
+3. **Generate and Preview**: Review your resume in real-time as you fill in the details.
+4. **Download or Share**: Download your resume in PDF or DOCX format, ready to submit to potential employers.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Built With
 
-## Deploy on Vercel
+- **Next.js** - A React framework for building server-side rendered and static web applications.
+- **Tailwind CSS** - A utility-first CSS framework for quickly building responsive, custom designs.
+- **Vercel** - Deployment and hosting for seamless web performance.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+With ProFile, creating a professional, ATS-compliant resume has never been easier. Say goodbye to complex templates and formatting issues – get started with ProFile and create a resume that works for you! <3
