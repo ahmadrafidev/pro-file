@@ -1,7 +1,12 @@
+import { ReactNode } from "react"
 import { Header } from "@/components/Header/Header"
 import { Footer } from "@/components/Footer/Footer"
 
-export default function Layout({ children }) {
+type LayoutProps = {
+  children: ReactNode
+}
+
+export default function Layout({ children }: LayoutProps) {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="container mx-auto px-4">
