@@ -17,8 +17,8 @@ export default function Home() {
             <span className="block font-bold text-black text-xl">No guesswork, just results.</span>
           </p>
         </div>
-        <div className="flex flex-row space-x-6 items-center justify-center my-10">
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-base">Try ProFile</Button>
+        <div className="flex flex-row space-x-8 items-center justify-center my-10">
+          <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-lg">Try ProFile</Button>
           <Link className="text-lg font-medium hover:underline" href="/about">
             Learn More
           </Link>

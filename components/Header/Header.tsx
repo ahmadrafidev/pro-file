@@ -17,7 +17,7 @@ export function Header() {
           Pricing
         </Link>
       </nav>
-      <Button className="bg-primary text-primary-foreground hover:bg-primary/90 text-base font-semibold">
+      <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg font-semibold">
         Join
       </Button>
     </header>
