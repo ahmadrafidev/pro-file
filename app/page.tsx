@@ -18,7 +18,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex flex-row space-x-8 items-center justify-center my-10">
-          <Link passhref="true" href="/form">
+          <Link passHref href="/form">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-lg">
               Try ProFile
             </Button>
