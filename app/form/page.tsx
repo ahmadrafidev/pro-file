@@ -128,41 +128,24 @@ export default function FormPage() {
       case 2:
         return (
           <div className="space-y-4">
-            <h3 className="text-lg font-medium">Choose a Resume Template</h3>
-            <div className="space-y-2">
-              <label className="flex items-center space-x-2">
-                <input
-                  type="radio"
-                  name="template"
-                  value="Template A"
-                  checked={formData.selectedTemplate === "Template A"}
-                  onChange={(e) => updateFormData("selectedTemplate", e.target.value)}
-                />
-                <span>Template A</span>
-              </label>
-              <label className="flex items-center space-x-2">
-                <input
-                  type="radio"
-                  name="template"
-                  value="Template B"
-                  checked={formData.selectedTemplate === "Template B"}
-                  onChange={(e) => updateFormData("selectedTemplate", e.target.value)}
-                />
-                <span>Template B</span>
-              </label>
-              <label className="flex items-center space-x-2">
-                <input
-                  type="radio"
-                  name="template"
-                  value="Template C"
-                  checked={formData.selectedTemplate === "Template C"}
-                  onChange={(e) => updateFormData("selectedTemplate", e.target.value)}
-                />
-                <span>Template C</span>
-              </label>
+            <h3 className="text-lg font-medium text-center">Choose a Resume Template</h3>
+            <div className="grid grid-cols-2 gap-4">
+              {["Template A", "Template B", "Template C", "Template D", "Template E", "Template F"].map((template) => (
+                <div
+                  key={template}
+                  className={`p-4 border rounded-lg flex flex-col items-center justify-center cursor-pointer ${
+                    formData.selectedTemplate === template ? "border-blue-500 bg-blue-100" : "border-gray-300"
+                  }`}
+                  onClick={() => updateFormData("selectedTemplate", template)}
+                >
+                  <div className="text-3xl mb-2">{/* Add icon here if available */}</div>
+                  <p className="font-semibold">{template}</p>
+                  <p className="text-sm text-gray-500">Choose this template for a professional look.</p>
+                </div>
+              ))}
             </div>
           </div>
-        )
+        );        
       case 3:
         return (
           <div className="space-y-4">
