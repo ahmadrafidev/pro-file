@@ -17,9 +17,11 @@ export function Header() {
           Pricing
         </Link>
       </nav>
-      <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg font-semibold">
-        Join
-      </Button>
+      <Link passHref href="/api/auth/login">
+        <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg font-semibold">
+          Join
+        </Button>
+      </Link>
     </header>
   )
 }
